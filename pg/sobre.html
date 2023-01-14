@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/mobile.css">
     <title>projetos</title>
+    <style>
+
+        main{
+            width: 100vw;
+            margin: auto;
+            text-align: center;
+            background-color: #e7ecea;
+        }
+
+        article{
+            text-align: center;
+        }
+
+        article p{
+            width: 80vw;
+            text-align: justify;
+        }
+
+        picture{
+            text-align: center;
+        }
+
+        article p{
+            font-size: 1rem;
+        }
+
+        article img{
+            width: 200px;
+            height: 200px;
+        }
+
+        main p a{
+            display: block;
+            padding: 6px 0;
+            color: black;
+            text-decoration: none;
+        }
+
+        @media screen and (min-width: 804px) {
+            
+            header{
+                width: 100vw;
+            }
+            main{
+                text-align: left;
+                width: 100vw;
+            }
+
+            article{
+                text-align: left;
+                display: inline-block;
+            }
+            article p{
+                width: 50vw;
+                font-size: 1.2rem;
+            }
+
+            article{
+                position: relative;
+            }
+
+            main article a{
+                font-weight: 600;
+            }
+
+            article img{
+                width: 30vw;
+                height: 60vh;
+                position: absolute;
+
+                left: 110%;
+                top: -12%;
+            }
+
+            footer {
+                width: 100vw;
+            }
+            
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,7 +95,7 @@
             <img src="../assets/logo.jpg" alt="Acema">
             <h1>Acema</h1>
         </div>
-        <div onclick="Mostrar()" class="comando">
+        <div onclick="menu()" class="comando">
             <img src="../assets/comandos/menu.svg" alt="menu">
         </div>
         <hr>
@@ -26,7 +108,86 @@
             </ul>
         </menu>
     </header>
-    <h1>Indisponivel</h1>
+    <main>
+        <h1>Acema</h1>
+        <article>
+            <p>
+                Somos uma organização sem fins lucrativos com sede em Chokwé, Gaza-Moçambique, legal e juridicamente constituida de âmbito provincial, temos como objectivo principal proporcionar oprtunidades e actividades que contribuem para o desenvolvimento social de familias desfavorecidas. <br>
+                A acema atua em áreas como saúde, educação, meio ambiente, acomodação e direitos humanos além dessas áreas também oferecemos explicação e cursos de curta duração que preparam os jovens para o mercado de trabalho. <br>
+                Endereço: Chokwé, Gaza, Edificio da OMM, 4 bairro.
+                
+                <strong>Contactos</strong> <br>
+
+                <a href="reginaldosuto@gmail.com">
+
+                    <span class="material-icons">
+                        email
+                    </span>
+
+                    Email
+        
+                </a>
+        
+                <a href="848979897">
+        
+                    <span class="material-icons">
+                        phone
+                    </span>
+                    
+                    Phone
+                </a>
+        
+                <a href="https://www.facebook.com/profile.php?id=100076011950600">
+        
+                    <span class="material-icons">
+                        facebook
+                    </span>
+                    
+                    Facebook
+                </a>
+                
+                <img src="../assets/logo.jpg" alt="Acema">
+            </p>
+
+        </article>
+    </main>
+    <footer>
+        <p>
+            &copy; Copyright. Acema Moçambique,SA <br>
+            Todos os direitos reservados.
+        </p>
+
+        <p>
+
+            <a href="reginaldosuto@gmail.com">
+
+                <span class="material-icons">
+                   email
+                </span>
+
+            </a>
+
+            <a href="848979897">
+
+                <span class="material-icons">
+                    phone
+                </span>
+
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=100076011950600">
+
+                <span class="material-icons">
+                    facebook
+                </span>
+
+            </a>
+
+        </p>
+        <p>
+            Desenvolvido por <a href="https://www.facebook.com/kido.dahwg"><strong>Quido Bila</strong></a>
+        </p>
+    </footer>
     <script src="../menu.js"></script>
 </body>
 </html>

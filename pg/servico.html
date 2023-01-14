@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/mobile.css">
     <title>projetos</title>
+    <style>
+        main h1{
+            padding-bottom: 20px;
+        }
+
+        p{
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,7 +24,7 @@
             <img src="../assets/logo.jpg" alt="Acema">
             <h1>Acema</h1>
         </div>
-        <div onclick="Mostrar()" class="comando">
+        <div onclick="menu()" class="comando">
             <img src="../assets/comandos/menu.svg" alt="menu">
         </div>
         <hr>
@@ -26,7 +37,80 @@
             </ul>
         </menu>
     </header>
-    <h1>Indisponivel</h1>
+   <main class="servico">
+        <h1>programa Social de reforço Escolar</h1>
+        <p>No âmbito do programa de reforço escolar a disponibilizamos <br> a tabela abaixo contendo os cursos disponibilizados e os respectivos preços</p>
+        <table>
+            <tr class="primeira">
+               <td>CURSOS</td>
+               <td>PREÇO</td>
+              <td>DURAÇÃO</td>
+              <td>MODALIDADES</td>
+         </tr>
+
+          <tr>
+              <td>Liderança</td>
+                <td>1.000,00</td>
+              <td>15 dias</td>
+              <td>Pagamento único</td>
+          </tr>
+
+          <tr class="cor">
+             <td>Ingles</td>
+             <td>850,00</td>
+             <td>3 meses nivel</td>
+                <td>Pagamento único/mensalmente</td>
+         </tr>
+
+          <tr>
+             <td>Informática</td>
+             <td>2.500,00</td>
+                <td>45 dias</td>
+                <td>Pagamento único/prestaçoes</td>
+          </tr>
+
+         <tr class="cor">
+                <td>Gestão de pequenos negócios</td>
+                <td>3.000,00</td>
+                <td>3 meses</td>
+               <td>Pagamento único/prestações</td>
+         </tr>
+
+          <tr>
+               <td>Costura</td>
+              <td>3.000,00</td>
+              <td>3 meses</td>
+              <td>Pagamento único/prestações</td>
+         </tr>
+
+         <tr class="cor">
+                <td>Teologia</td>
+               <td>400,00/mês</td>
+                <td>4 anos</td>
+                <td>+258-849005481</td>
+         </tr>
+        </table>
+
+        <details>
+            <summary>Tabela dos cursos</summary>
+            <p>
+                infelizmente seu dispositivo ainda nao pode exibir <br>
+                nossa tabela faca o download do mesmo atraves do link abaixo <br>
+
+                <a href="https://drive.google.com/file/d/1-6pMZkCceOAjppps4Ck1gj38M5h2WQNv/view?usp=drivesdk">Tabela de Cursos</a>
+            </p>
+        </details>
+
+        <p>
+            Também disponibilizamos explicação Matemática, Química, Fisica,
+            Desenho e Geometria Descritiva.
+        </p>
+
+        <p>
+          <strong>A inscrição para qualquer curso que consta na tabela custa 500.00Mt
+          </strong>
+        </p>
+   </main>
     <script src="../menu.js"></script>
 </body>
 </html>
