@@ -15,10 +15,11 @@
             <img src="assets/logo.jpg" alt="Acema">
             <h1>Acema</h1>
         </div>
-        <div onclick="menu()" class="comando">
-            <img src="assets/comandos/menu.svg" alt="menu">
-        </div>
         <hr>
+        <div onclick="menu()" class="botao">
+            <img src="assets/comandos/menu.svg" alt="menu" class="comando">
+        </div>
+        
         <menu id="itens">
             <ul>
                 <li class="nav-item"><a href="index.html" class="nav-link">Principal</a></li>
@@ -27,6 +28,7 @@
                 <li class="nav-item"><a href="pg/servico.html" class="nav-link">Servicos</a></li>             
             </ul>
         </menu>
+        
     </header>
     <main>
         <section>
@@ -42,7 +44,7 @@
             </picture>
 
             <div class="ilink">
-                <a href="pg/sobre.html">Leia Mais</a>
+                <a href="pg/sobre.html" type="internal" target="_self">Saiba Mais</a>
                 <span class="material-icons">
                     navigate_next
                 </span>

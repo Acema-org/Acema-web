@@ -15,12 +15,13 @@ body{
 }
 
 header{
-    background-color: #fff;
-    text-align: center; 
     width: 100vw;
+    background-color: #fff;
+    
 }
 
 .logo{
+    text-align: center; 
     display: flex;
     align-items: center;
     margin-left: 2rem;
@@ -34,6 +35,11 @@ header{
 .logo h1{
     margin-left: 5px;
     text-shadow: 1px 2px 3px #16161644;
+}
+
+.botao{
+    padding: 5px 20px;
+    background-color: #e0e0e0;
 }
 
 menu{
@@ -57,17 +63,14 @@ menu ul > li > a{
 }
 
 menu li a:hover{
-    color: #34db34e0;
+    color: #ca0a9a;
     text-decoration: underline;
 }
 
-header span{
-    padding: 15px;
-    
-}
 
 hr{
-    border: 2px solid #03ff03;
+    margin-top: 15px;
+    border: 1px solid #ca0a9a;
 }
 
 span{
@@ -126,7 +129,7 @@ section details{
     padding: 8px;
     margin-top: 50px;
     border-radius: 50px;
-    background-color: #187c1d;
+    background-color: #ca0a9a;
     text-align: center;
     display: flex;
     align-items: center;
@@ -139,7 +142,6 @@ section details{
 .ilink a{
     color: #fff;
     margin-left: 5px;
-    font-weight: 600;
     visibility: 90%;
     text-decoration: none;
 }
@@ -198,7 +200,7 @@ main.servico table{
     header{
         display: flex;
         justify-content: space-between;
-        border-bottom: 2px solid #05f305;
+        border-bottom: 2px solid #ca0a9a;
     }
 
     .logo{
@@ -211,7 +213,7 @@ main.servico table{
         background-color: #fff;
     }
 
-    .comando, hr{
+    .botao, hr{
         display: none;
     }
 
