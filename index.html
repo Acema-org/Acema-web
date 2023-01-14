@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/mobile.css">
+    <title>Acema</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.jpg" alt="Acema">
+            <h1>Acema</h1>
+        </div>
+        <div onclick="menu()" class="comando">
+            <img src="assets/comandos/menu.svg" alt="menu">
+        </div>
+        <hr>
+        <menu id="itens">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Principal</a></li>
+                <li class="nav-item"><a href="pg/sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="pg/projeto.html" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="pg/servico.html" class="nav-link">Servicos</a></li>             
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section>
+            <h1>Site Oficial da Acema</h1>
+            <p>
+                Somos uma associação comunitário sem fins lucrativos,
+                proporcionamos actividades que contribuem para o
+                desenvolvimento social das familias desfavorecidas.
+            </p>
+
+            <picture>
+                <img src="assets/homem-e-mulher-se-tocando-quando-o-trabalho-termina_1150-35029.webp" alt="backgroung">
+            </picture>
+
+            <div class="ilink">
+                <a href="#">Leia Mais</a>
+                <span class="material-icons">
+                    navigate_next
+                </span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; Copyright. Acema Moçambique,SA <br>
+            Todos os direitos reservados.
+        </p>
+
+        <p>
+
+            <a href="reginaldosuto@gmail.com">
+
+                <span class="material-icons">
+                   email
+                </span>
+
+            </a>
+
+            <a href="848979897">
+
+                <span class="material-icons">
+                    phone
+                </span>
+
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=100076011950600">
+
+                <span class="material-icons">
+                    facebook
+                </span>
+
+            </a>
+
+        </p>
+        <p>
+            Desenvolvido por <a href="https://www.facebook.com/kido.dahwg"><strong>Quido Bila</strong></a>
+        </p>
+    </footer>
+    <script>
+        function menu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none';
+                document.querySelector('.comando').src = "assets/comandos/menu.svg";
+            }else{
+                itens.style.display = 'block';
+                document.querySelector('.comando').src = "assets/comandos/close.svg";
+            }
+        }
+    </script>
+</body>
+</html>
