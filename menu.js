@@ -6,5 +6,5 @@ function menu(){
     }else{
             itens.style.display = 'block';
             document.querySelector('.comando').src = "assets/comandos/close.svg";
-        }
+    }
 }
