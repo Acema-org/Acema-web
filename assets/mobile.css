@@ -249,4 +249,7 @@ main.servico table{
         display: none;
     }
 
+    .curso{
+        display: block;
+    }
 }
