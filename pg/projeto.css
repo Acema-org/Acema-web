@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+    background-color: #fff;
+}
+
+main{
+    height: auto;
+}
+
+section details{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 70vw;
+    margin: 15px 0;
+    box-shadow: 3px 3px 3px #1f1e1e33
+}
+details summary{
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+details summary.verde{
+    background-color: #06c206;
+}
+
+details summary.azul{
+    background-color: #048cfc;
+}
+
+main section h1{
+    width: 70vw;
+}
+
+main section p{
+    width: 60vw;
+}
