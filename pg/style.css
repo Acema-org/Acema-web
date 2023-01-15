@@ -50,7 +50,6 @@ section div{
 }
 
 
-
 div p{
     width: 100px;
     font-weight: 600;
@@ -66,25 +65,24 @@ div p{
     margin: 30px 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 786px){
 
     section div{
-        width: 12vw;
-        height: 20vh;
+        width: 170px;
+        height: 150px;
         border-radius: 15px;
         text-align: center;
         margin: 10px 10px;
         line-height: 50px;
         font-weight: 600;
-        box-shadow: 3px 3px 10px #0000004f;
-        display: inline-block;
-        font-weight: 600;
         position: relative;
+        box-shadow: 3px 3px 10px #0000004f;
+       
     }
 
     div img{
-        width: 5vw;
-        height: 8vh;
+        width: 20vw;
+        height: 20vh;
         position: absolute;
     
         top: 40%;
@@ -97,10 +95,9 @@ div p{
         position: absolute;
         
         top: 70%;
-        left: 25%;
+        left: 20%;
         
     }
-
-    
+  
 }
 
