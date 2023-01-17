@@ -93,7 +93,7 @@ section{
 }
 
 section h1{
-    width: 45vw;
+    width: 55vw;
     font-size: 2rem;
     text-shadow: 1px 1px 3px #0000003f;
 }
@@ -107,17 +107,17 @@ section p{
 }
 
 section picture{
-    display: none;
+    display: block;
 }
 
-section img{
-    width: 60vw;
-    height: 90vh;
-    
+picture img{
+    width: 100vw;
+    height: 40vh;
+
     position: absolute;
 
-    top: 0;
-    left: 35%;
+    top: 50%;
+    left: 0;
 }
 
 section details{
@@ -239,6 +239,16 @@ main.servico table{
  
     section picture{
         display: block;
+    }
+
+    section img{
+        width: 60vw;
+        height: 90vh;
+        
+        position: absolute;
+    
+        top: 0;
+        left: 35%;
     }
     
     main.servico table{
